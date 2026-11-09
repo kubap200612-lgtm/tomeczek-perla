@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pearltrail",
+  "version": "${version}",
+  "name": "Pearl Trail",
+  "description": "Smuga z cząsteczek teleportacji endermana za rzuconą perłą kresu.",
+  "authors": ["kubap"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.pearltrail.PearlTrailClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
